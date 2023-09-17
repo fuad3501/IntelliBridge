@@ -22,8 +22,9 @@ function App() {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/About" element={<About />} />
         <Route path="*" element={<NotFound />} />
-
       </Routes>
+
+      <h1 className='title'>Hello</h1>
     </>
   )
 }
